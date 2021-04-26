@@ -1,2 +1,2 @@
 # SQLDbDemo
-A Christmas list SQL database mini project built by Brent Crystal.
+A SQL database mini project that holds information about people on your Christmas list.
