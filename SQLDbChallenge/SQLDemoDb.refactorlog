@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="2fdfb0b7-a295-4983-9ec8-34e2edab99dc" ChangeDateTime="04/23/2021 16:58:43">
+    <Property Name="ElementName" Value="[dbo].[FullPersonGiftList]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[BasicContact]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e213db77-7495-4fe9-8da1-e0ed38923a5b" ChangeDateTime="04/23/2021 17:41:40">
+    <Property Name="ElementName" Value="[dbo].[BasicContact]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[GiftBudget]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fa63cfd3-e75b-4a07-ac98-575bba0543be" ChangeDateTime="04/23/2021 21:27:00">
+    <Property Name="ElementName" Value="[dbo].[Contact].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Contact]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[ContactId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4584941f-7b62-4f03-8678-8f8998c95b62" ChangeDateTime="04/24/2021 00:28:47">
+    <Property Name="ElementName" Value="[dbo].[spRegister_GetBudgetVsActual]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[spRegister_GetBudgetActual]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f9ff99b9-2b23-4efc-b826-ad253d81473a" ChangeDateTime="04/25/2021 20:07:00">
+    <Property Name="ElementName" Value="[dbo].[Gift].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Gift]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[GiftId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9e872e7d-15ef-4e6a-9e6d-a153d2453782" ChangeDateTime="04/25/2021 20:14:11">
+    <Property Name="ElementName" Value="[dbo].[Gift].[GiftId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Gift]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[Id]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ee0de051-17e8-49d6-88f6-eb6b718c1bd4" ChangeDateTime="04/25/2021 20:16:12">
+    <Property Name="ElementName" Value="[dbo].[Gift].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Gift]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[GiftId]" />
+  </Operation>
+</Operations>
